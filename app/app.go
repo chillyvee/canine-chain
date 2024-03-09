@@ -13,8 +13,9 @@ import (
 	v330 "github.com/jackalLabs/canine-chain/v3/app/upgrades/v330"
 
 	v320 "github.com/jackalLabs/canine-chain/v3/app/upgrades/v320"
-
 	v310 "github.com/jackalLabs/canine-chain/v3/app/upgrades/v310"
+
+	memiavlstore "github.com/crypto-org-chain/cronos/store"
 
 	ibcfee "github.com/cosmos/ibc-go/v4/modules/apps/29-fee"
 	ibc "github.com/cosmos/ibc-go/v4/modules/core"
@@ -380,6 +381,10 @@ func NewJackalApp(
 ) *JackalApp {
 	appCodec, legacyAmino := encodingConfig.Marshaler, encodingConfig.Amino
 	interfaceRegistry := encodingConfig.InterfaceRegistry
+
+	// SetupMemIAVL only overrides rootmulti store if app.toml has memiavl.enable = true
+	memiavlSdk46Compact := true                    // true: root hash is compatible with cosmos-sdk 0.46 and before
+	baseAppOptions = memiavlstore.SetupMemIAVL(logger, homePath, appOpts, memiavlSdk46Compact, baseAppOptions)
 
 	bApp := baseapp.NewBaseApp(appName, logger, db, encodingConfig.TxConfig.TxDecoder(), baseAppOptions...)
 	bApp.SetCommitMultiStoreTracer(traceStore)
