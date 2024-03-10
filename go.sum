@@ -202,10 +202,10 @@ github.com/cespare/xxhash/v2 v2.1.2/go.mod h1:VGX0DQ3Q6kWi7AoAeZDth3/j3BFtOZR5XL
 github.com/cespare/xxhash/v2 v2.2.0 h1:DC2CZ1Ep5Y4k3ZQ899DldepgrayRUGE6BBZ/cd9Cj44=
 github.com/cespare/xxhash/v2 v2.2.0/go.mod h1:VGX0DQ3Q6kWi7AoAeZDth3/j3BFtOZR5XLFGgcrjCOs=
 github.com/cheekybits/is v0.0.0-20150225183255-68e9c0620927/go.mod h1:h/aW8ynjgkuj+NQRlZcDbAbM1ORAbXjXX77sX7T289U=
-github.com/chillyvee/cronos/memiavl v0.0.5-0.20240309195447-b5a2e6661bf5 h1:2YG2ZtpowVB+yaQ6tDQLzJkcmx+t0AVpwnxpOK8+eu4=
-github.com/chillyvee/cronos/memiavl v0.0.5-0.20240309195447-b5a2e6661bf5/go.mod h1:up3coNrBdldoFsmBsVkb5ZCwIV4aufjwXmlT/VoVhrI=
-github.com/chillyvee/cronos/store v0.0.5-0.20240309195447-b5a2e6661bf5 h1:/iT3CMmpbGTmU37TRbk4zgZdoZ1SB2TwpK3c3CBow2I=
-github.com/chillyvee/cronos/store v0.0.5-0.20240309195447-b5a2e6661bf5/go.mod h1:YtzwP6QxdkVtHmoPAPk1bKfwku7VB/5Kzdgr4EoIgiU=
+github.com/chillyvee/cronos/memiavl v0.0.5-0.20240310094151-4debbd6457d4 h1:+FGgKNZaPqI4oerJyz/po/M713IA2Ry5H7OkSW0WKh0=
+github.com/chillyvee/cronos/memiavl v0.0.5-0.20240310094151-4debbd6457d4/go.mod h1:up3coNrBdldoFsmBsVkb5ZCwIV4aufjwXmlT/VoVhrI=
+github.com/chillyvee/cronos/store v0.0.5-0.20240310094151-4debbd6457d4 h1:arKWq68hJMRCKHw13k6wE4QT4D9l2RJLeE7pEM8EVE8=
+github.com/chillyvee/cronos/store v0.0.5-0.20240310094151-4debbd6457d4/go.mod h1:YtzwP6QxdkVtHmoPAPk1bKfwku7VB/5Kzdgr4EoIgiU=
 github.com/chzyer/logex v1.1.10/go.mod h1:+Ywpsq7O8HXn0nuIou7OrIPyXbp3wmkHB+jjWRnGsAI=
 github.com/chzyer/readline v0.0.0-20180603132655-2972be24d48e/go.mod h1:nSuG5e5PlCu98SY8svDHJxuZscDgtXS6KTTbou5AhLI=
 github.com/chzyer/test v0.0.0-20180213035817-a1ea475d72b1/go.mod h1:Q3SI9o4m/ZMnBNeIyt5eFwwo7qiLfzFZmjNmxjkiQlU=

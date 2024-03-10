@@ -195,10 +195,10 @@ replace (
 	google.golang.org/grpc => google.golang.org/grpc v1.33.2
 )
 
-replace github.com/crypto-org-chain/cronos/store => github.com/chillyvee/cronos/store v0.0.5-0.20240309195447-b5a2e6661bf5
+replace github.com/crypto-org-chain/cronos/store => github.com/chillyvee/cronos/store v0.0.5-0.20240310094151-4debbd6457d4
 
-replace github.com/crypto-org-chain/cronos/memiavl => github.com/chillyvee/cronos/memiavl v0.0.5-0.20240309195447-b5a2e6661bf5
+replace github.com/crypto-org-chain/cronos/memiavl => github.com/chillyvee/cronos/memiavl v0.0.5-0.20240310094151-4debbd6457d4
 
-replace github.com/crypto-org-chain/cronos/store/rootmulti => github.com/chillyvee/cronos/store/rootmulti v0.0.5-0.20240309195447-b5a2e6661bf5
+replace github.com/crypto-org-chain/cronos/store/rootmulti => github.com/chillyvee/cronos/store/rootmulti v0.0.5-0.20240310094151-4debbd6457d4
 
 replace github.com/ChainSafe/go-schnorrkel => github.com/ChainSafe/go-schnorrkel v0.0.0-20200405005733-88cbf1b4c40d
